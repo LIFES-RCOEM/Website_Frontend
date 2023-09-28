@@ -1,0 +1,142 @@
+.container{ 
+    position: absolute;
+    top: 50%;
+    z-index: 9999;
+    background: white;;
+}
+
+.rightImg {
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 100%;
+    border-radius: 25px;
+    /* max-height: 100vh; */
+}
+.rightImg img {
+    /* max-height: 100vh; */
+        height: 100%;
+}
+
+/* * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Vazirmatn", sans-serif;
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #eaeaef;
+} */
+
+/* Modal */
+.modal-container {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  /* background-color: rgba(0, 0, 0, 0.7);
+   */
+  background: transparent;
+  backdrop-filter: blur(10px);
+  z-index: 99;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.3s visibility ease-in, opacity 0.3s ease-out;
+  /* visibility: hidden;
+  opacity: 0; */
+  visibility: visible;
+  opacity: 1;
+  border-radius: 25px;
+}
+
+.modal-wrapper{ 
+    position: relative;
+    width: 50%;
+    /* height: 70%; */
+}
+
+.modal-container.show {
+  visibility: visible;
+  opacity: 1;
+}
+.modal {
+  min-height: 275px;
+  border-radius: 25px;
+  /* background-color: var(--font-); */
+  box-shadow: 0 2px 15px rgba(34, 34, 53, 0.1);
+}
+header {
+    width: 100%;
+  /* position: absolute; */
+  cursor: pointer;
+  padding: 25px;
+  display: flex;
+  justify-content: space-between !important;
+  align-items: center;
+  border-bottom: 2px solid #eaeaef;
+  transition: 256ms;
+}
+header img:hover {
+  transform: scale(1.1);
+}
+h2 {
+  color: #32324d;
+}
+/* Main */
+.modal-main {
+  padding: 25px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  border-bottom: 2px solid #eaeaef;
+  color: black;
+}
+
+.modal-main input::-webkit-input-placeholder, .modal-main input::placeholder{ 
+    font-size: medium;
+}
+
+@media screen and (max-width: 646px) {
+     .modal-main {
+         padding: 15px;
+         width: 100%;
+     }   
+}
+
+.fa-circle-exclamation {
+  font-size: 22px;
+  color: #d02b20;
+}
+.text-wrapper span {
+  font-weight: 400;
+  color: #32324d;
+}
+/* Footer */
+footer {
+  padding: 17px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.myBtn{ 
+    /* padding: 25px; */
+}
+
+/* Media Query */
+@media only screen and (max-width: 600px) {
+  .modal {
+    /* width: 362px; */
+  }
+  .btn {
+      padding: 10px 35px ;
+      text-align: center;
+  }
+}

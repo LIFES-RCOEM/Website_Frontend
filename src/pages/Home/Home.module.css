@@ -1,0 +1,13 @@
+
+
+/* 
+@keyframes transform {
+    from { 
+        position: fixed;
+        top: 50%;
+        left: 50%;
+    }
+    to{ 
+        transform : translate(10vw , 10vh)
+    }
+} */

@@ -1,0 +1,14 @@
+
+.scrollSnap{ 
+        /* height: 100vh; */
+        /* scroll-snap-align: start; */
+        scroll-snap-stop: always;
+
+}
+
+.scrollMargin1{ 
+    scroll-padding-top: 15px;
+}
+.scrollMargin1{ 
+    scroll-padding-top: 45px;
+}

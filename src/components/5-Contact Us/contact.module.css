@@ -1,0 +1,7 @@
+.border-gradient{ 
+    /* border: 8px solid ; */
+    /* border-image-source: linear-gradient(112.84deg,  4.46%, #FF6700 60.67%,  87.74%); */
+  border-style: solid;
+  border-width: 10px;
+  border-image: linear-gradient(45deg, #FF6700, #FFC107  ) 1;
+}

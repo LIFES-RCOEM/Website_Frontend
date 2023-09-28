@@ -1,0 +1,35 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+:root{ 
+    --dark-orange : rgba(255,103, 0 , 1);
+    --light-orange: rgba(255,140, 0,1);
+    --yellow : rgba(255,165,0);
+}
+html{ 
+    scroll-behavior: smooth;
+    scroll-snap-type: y mandatory;
+    overflow-x: hidden;
+    scroll-padding-top: 8vh;
+}
+
+::-webkit-scrollbar {
+    width: 8px;
+    background: #2b2d31;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: #2b2d31;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #484c55;
+    border-radius: 25px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
